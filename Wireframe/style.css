@@ -45,14 +45,13 @@ svg {
 Setting the overall rules for page regions
 https://www.w3.org/WAI/tutorials/page-structure/regions/
 */
+header {
+  text-align: center;
+}
 main {
   max-width: var(--container);
   margin: 0 auto calc(var(--space) * 4) auto;
-}
-footer {
-  position: fixed;
-  bottom: 0;
-  text-align: center;
+  padding-bottom: 70px;
 }
 /* ====== Articles Grid Layout ====
 Setting the rules for how articles are placed in the main element.
@@ -86,4 +85,13 @@ article {
   > img {
     grid-column: span 3;
   }
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
 }

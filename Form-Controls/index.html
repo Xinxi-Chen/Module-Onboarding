@@ -13,6 +13,7 @@
     </header>
     <main>
       <form>
+
         <section>
             <label for="customerName">Customer Name:</label>
             <input 
@@ -35,34 +36,18 @@
                 required
             >
         </section>
-        
-        <section>
-          
-          <p>
-          <label for="tshirtSize">T-Shirt Size:</label>  
-            <select id="tshirtSize" name="tshirtSize" required>
-                <option value="" disabled selected>-- Select Size --</option>
-                <option value="XS">XS</option>
-                <option value="S">S</option>
-                <option value="M">M</option>
-                <option value="L">L</option>
-                <option value="XL">XL</option>
-                <option value="XXL">XXL</option>
-            </select>
-          </p>
-        
-        </section>
-        
+
         <section>
             <p>Select T-Shirt Colour: <span aria-hidden="true">*</span></p>
 
             <fieldset>
                 <legend class="visually-hidden">Choose one colour</legend>
+                
                 <p>
                     <input type="radio" id="colorRed" name="tshirtColor" value="Red" required>
                     <label for="colorRed">Red</label>
                 </p>
-        
+                
                 <p>
                     <input type="radio" id="colorBlue" name="tshirtColor" value="Blue">
                     <label for="colorBlue">Blue</label>
@@ -73,6 +58,19 @@
                     <label for="colorBlack">Black</label>
                 </p>
             </fieldset>
+        </section>
+
+        <section> 
+          <label for="tshirtSize">T-Shirt Size:</label>
+            <select id="tshirtSize" name="tshirtSize" required>
+                <option value="" disabled selected>-- Select Size --</option>
+                <option value="XS">XS</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+                <option value="XXL">XXL</option>
+            </select>
           </section>
 
        <p>  
